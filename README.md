@@ -11,17 +11,9 @@ Panoptic segmentation is the task of assigning every pixel in an image to either
 - Dual segmentation heads: Instance segmentation and semantic segmentation heads enable holistic scene understanding.
 - COCO Dataset Support: Comprehensive evaluation on one of the most challenging datasets.
 
-# Setup
-1. Clone the repository: git clone https://github.com/your-username/panoptic-segmentation.git
-cd panoptic-segmentation
-2. Install dependencies: pip install -r requirements.txt
-3. Download the COCO dataset: Visit the COCO Dataset and download the train and validation sets. Update the dataset path in the configuration file (config.yaml).
-4. Configure the project: Modify parameters such as batch size, learning rate, and epochs in the config.yaml file.
-
-# Usage
-1. Train the Model: python train.py
-2. Evaluate the Model: python evaluate.py
-3. Inference: Run the inference script to visualize panoptic segmentation results on new images: python inference.py --image-path path/to/image.jpg
+# Setup and Usage
+This project is run in the form of a Juypter Notebook. You can download the file here: [COCO_Panoptic_Segmentation.ipynb](https://github.com/apmalinsky/AAI-521-FinalProject/blob/main/COCO_Panoptic_Segmentation.ipynb)
+You can either clone the repo and run it locally, or on Google Colab here: [COCO_Panoptic_Segmentation Colab Notebook](https://colab.research.google.com/drive/1ox9mnulhXUwGYLefNaVhB7IwLokRL8bn?usp=sharing)
 
 # Results
 After training on the subset of 20,000 COCO images using the Panoptic FPN model (with ResNet-50 as the backbone), the model achieved the following scores on the validation dataset:
