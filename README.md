@@ -13,7 +13,8 @@ Panoptic segmentation is the task of assigning every pixel in an image to either
 
 # Setup and Usage
 This project is run in the form of a Juypter Notebook. You can download the file here: [COCO_Panoptic_Segmentation.ipynb](https://github.com/apmalinsky/AAI-521-FinalProject/blob/main/COCO_Panoptic_Segmentation.ipynb)<br />
-You can either clone the repo and run it locally, or on Google Colab here: [COCO_Panoptic_Segmentation Colab Notebook](https://colab.research.google.com/drive/1ox9mnulhXUwGYLefNaVhB7IwLokRL8bn?usp=sharing)
+You can either clone the repo and run it locally, or on Google Colab here: <br />
+[COCO_Panoptic_Segmentation Colab Notebook](https://colab.research.google.com/drive/1ox9mnulhXUwGYLefNaVhB7IwLokRL8bn?usp=sharing)
 
 # Results
 After training on the subset of 20,000 COCO images using the Panoptic FPN model (with ResNet-50 as the backbone), the model achieved the following scores on the validation dataset:
