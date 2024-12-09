@@ -1,4 +1,4 @@
-# Panoptic Segmentation with Panoptic FPN
+# Panoptic Segmentation on COCO Dataset with Panoptic FPN
 
 This repository implements a Panoptic Feature Pyramid Network (Panoptic FPN) for panoptic segmentation on the COCO dataset. The project combines instance and semantic segmentation tasks to achieve comprehensive scene understanding.
 
